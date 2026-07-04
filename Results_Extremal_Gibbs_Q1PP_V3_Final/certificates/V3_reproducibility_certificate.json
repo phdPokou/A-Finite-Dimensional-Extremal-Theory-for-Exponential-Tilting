@@ -1,0 +1,57 @@
+{
+  "script": "run_extremal_gibbs_q1pp_v3_final_memorysafe.py",
+  "sha256": "5bde76fff256ccc7ed085441075de1b10fd52b2e3147c16f73c8e157d85f5aa2",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "matplotlib": "3.10.0",
+  "config": {
+    "profile": "q1pp",
+    "output_dir": "Results_Extremal_Gibbs_Q1PP_V3_Final",
+    "seeds": 30,
+    "num_random": 3000,
+    "n_grid": [
+      5,
+      10,
+      25,
+      50,
+      100,
+      250
+    ],
+    "eta_grid": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "delta_grid": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "generators": [
+      "boundary",
+      "exponential",
+      "laplace",
+      "student",
+      "two_scale",
+      "uniform"
+    ],
+    "lambda_points": 1200,
+    "phase_n_points": 150,
+    "phase_rho_points": 500,
+    "asymptotic_points": 700,
+    "empirical_bins": 32,
+    "n_reference": 25,
+    "empirical_sample_size": 120000,
+    "empirical_bin_sample_size": 3000,
+    "skip_figures": false,
+    "figures_only": false
+  },
+  "generated_at_unix": 1782962783.9215083
+}
