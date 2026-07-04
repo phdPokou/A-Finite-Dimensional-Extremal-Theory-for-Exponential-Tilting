@@ -1,4 +1,4 @@
-# A Finite-Dimensional Extremal Theory for Exponential Tilting under Score-Gap Constraints
+# A Finite-Dimensional Extremal Theory for Exponential Tilting
 
 ## Overview
 ## Mathematical Framework
