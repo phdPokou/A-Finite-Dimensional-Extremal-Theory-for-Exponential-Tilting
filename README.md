@@ -93,7 +93,7 @@ arguments:
 --num-random 3000
 ```
 
-These options specify the full Q1++ computational profile, the number of
+These options specify the full computational profile, the number of
 distinct random seeds, and the number of random score vectors generated per
 configuration.
 
@@ -187,7 +187,7 @@ The arguments have the following roles:
 
 | Argument | Final value | Role |
 |---|---:|---|
-| `--profile` | `q1pp` | Selects the full Q1++ computational profile |
+| `--profile` | `q1pp` | Selects the full  computational profile |
 | `--seeds` | `30` | Uses 30 distinct random seeds |
 | `--num-random` | `3000` | Generates 3000 random admissible vectors per configuration |
 
@@ -353,7 +353,7 @@ python run_extremal_gibbs_q1pp_v3_final_memorysafe.py --profile q1pp --seeds 30 
 
 and uses:
 
-- a fixed Q1++ computational profile;
+- a fixed  computational profile;
 - explicitly specified dimensions;
 - explicitly specified temperature values;
 - explicitly specified score-gap values;
