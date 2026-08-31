@@ -36,7 +36,6 @@ finite computational design. They do not enter the analytical proofs.
 ## Mathematical Framework
 
 Let $h_(1) >= h_(2) >= ... >= h_(n)$
-
 denote the ordered components of a finite-dimensional score vector. The
 admissible set is defined by the prescribed positive gap
 $h_(1) - h_(2) = \Delta > 0.$
